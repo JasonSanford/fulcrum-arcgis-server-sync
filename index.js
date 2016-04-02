@@ -24,9 +24,9 @@ var featureService = new FeatureService({
 });
 
 var fulcrumClient = new Fulcrum({
-  api_key: fulcrumConfig.apiKey,
+  api_key: fulcrumConfig.apiKey
   // TODO: Set to live api
-  url: 'http://localhost:3000/api/v2/'
+  //url: 'http://localhost:3000/api/v2/'
 });
 
 fulcrumClient.forms.find(fulcrumConfig.formId, function (error, resp) {
