@@ -1,0 +1,31 @@
+{
+  "name": "fulcrum-arcgis-server-sync",
+  "version": "0.0.0",
+  "description": "Sync Fulcrum and ArcGIS Server using Webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonSanford/fulcrum-arcgis-server-sync.git"
+  },
+  "keywords": [
+    "fulcrum",
+    "arcgis",
+    "sync"
+  ],
+  "author": "Jason Sanford",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/JasonSanford/fulcrum-arcgis-server-sync/issues"
+  },
+  "homepage": "https://github.com/JasonSanford/fulcrum-arcgis-server-sync#readme",
+  "dependencies": {
+    "arcgis-featureservice": "JasonSanford/node-arcgis-featureservice#include-result",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "fulcrum-app": "^1.4.0",
+    "request": "^2.69.0"
+  }
+}
